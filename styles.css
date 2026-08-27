@@ -72,6 +72,13 @@ img{display:block; max-width:100%;}
   transition:color .15s ease;
 }
 .navlinks a:hover{color:var(--ink);}
+.navlink-external{
+  color:var(--ink) !important;
+  background:var(--paper-alt); border-radius:999px; padding:7px 14px 7px 8px !important;
+  margin-left:4px;
+}
+.navlink-external:hover{background:var(--ink); color:var(--paper) !important;}
+.navlink-external .navtag{background:var(--teal); color:#fff; border-color:var(--teal);}
 .navtag{
   font-family:var(--mono); font-size:.65rem; font-weight:500;
   border:1px solid var(--line-strong); border-radius:3px;
