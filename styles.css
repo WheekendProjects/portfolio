@@ -1,23 +1,23 @@
 /* ===== Tokens =====
-   Paper:  #EEF0EE  cool light gray (deliberately not cream)
-   Paper alt: #E4E7E2
-   Ink:    #14161A
-   Ink soft: #53575D
-   Red (from brand mark): #C6362B
-   Teal (from mascot hat, secondary accent): #2B6570
-   Line: rgba(20,22,26,.12)
+   Palette unified with Wheekend Projects branding (sampled from brand banner):
+   Cream:  #F3E8E1
+   Cream alt: #EAD9CC
+   Ink (charcoal): #292C35
+   Ink soft: #6B6459
+   Blue (primary accent): #4151C8
+   Pink (secondary accent): #E600D6
 */
 
 :root{
-  --paper:#EEF0EE;
-  --paper-alt:#E3E6E1;
-  --ink:#14161A;
-  --ink-soft:#53575D;
-  --red:#C6362B;
-  --red-soft:#E7DAD4;
-  --teal:#2B6570;
-  --line: rgba(20,22,26,.13);
-  --line-strong: rgba(20,22,26,.24);
+  --paper:#F3E8E1;
+  --paper-alt:#EAD9CC;
+  --ink:#292C35;
+  --ink-soft:#6B6459;
+  --red:#4151C8;
+  --red-soft:#DCE0F5;
+  --teal:#E600D6;
+  --line: rgba(41,44,53,.14);
+  --line-strong: rgba(41,44,53,.28);
   --display: 'Space Grotesk', sans-serif;
   --body: 'Inter', sans-serif;
   --mono: 'JetBrains Mono', monospace;
